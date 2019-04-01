@@ -1,0 +1,14 @@
+package OOP;
+
+import lombok.extern.java.Log;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Examples ex=new Examples(1,"Ana","CSE");
+	  ex.toString();
+	 
+   
+	}
+
+}

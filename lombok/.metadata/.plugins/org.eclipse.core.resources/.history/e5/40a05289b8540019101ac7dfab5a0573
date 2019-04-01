@@ -1,0 +1,22 @@
+package OOP;
+
+import java.util.stream.IntStream;
+import lombok.ToString;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Examples ex=new Examples();
+		@ToString 
+		class Person
+		{
+			private String id;
+			private String name;
+			private String dept;
+		
+		}
+    ex.toString();
+    System.out.println(ex);
+	}
+
+}

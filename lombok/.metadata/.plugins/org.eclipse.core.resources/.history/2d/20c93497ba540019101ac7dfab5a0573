@@ -1,0 +1,21 @@
+package OOP;
+
+import lombok.extern.java.Log;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Examples ex=new Examples(1,"Ana","CSE");
+		Examples ex1=new Examples(2,"Joyee","EEE");
+		Examples ex2=new Examples(3,"Ria","ICE");
+		
+	  ex.toString();
+	  ex1.toString();
+	  ex2.toString();
+	  System.out.println(ex+ " " +ex1+  " "+ex2);
+	
+	  
+   
+	}
+
+}
